@@ -96,10 +96,11 @@ ordering="AFTER"
 side="BOTH"
 
 [[dependencies.cnc_sa]]
-modId="cnc_replanted"
-type="incompatible"
-versionRange="[0.0.2,)"
-ordering="NONE"
+modId="toughasnails"
+type="optional"
+reason="this mod adds thirst to CNC Items"
+versionRange="[10.1.0.13,)"
+ordering="AFTER"
 side="BOTH"
 
 # Features are specific properties of the game environment, that you may want to declare you require. This example declares

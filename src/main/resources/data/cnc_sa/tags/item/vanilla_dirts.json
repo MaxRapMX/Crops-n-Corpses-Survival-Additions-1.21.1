@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "minecraft:dirt", "minecraft:coarse_dirt", "minecraft:rooted_dirt"
+    "minecraft:dirt", "minecraft:coarse_dirt", "minecraft:rooted_dirt", {
+      "id": "burnt:burnt_dirt",
+      "required": false
+    }
   ]
 }
