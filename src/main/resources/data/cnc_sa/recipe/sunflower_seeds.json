@@ -1,10 +1,7 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "misc",
+  "type": "minecraft:crafting_shapeless", "category": "misc",
   "ingredients": [
-    {
-      "item": "minecraft:sunflower"
-    }
+    { "item": "minecraft:sunflower" }
   ],
   "result": {
     "count": 3,

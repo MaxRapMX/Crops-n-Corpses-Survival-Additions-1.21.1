@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "cnc:walnut_flour",
+    {
+      "id": "create:wheat_flour",
+      "required": false
+    }
+  ]
+}

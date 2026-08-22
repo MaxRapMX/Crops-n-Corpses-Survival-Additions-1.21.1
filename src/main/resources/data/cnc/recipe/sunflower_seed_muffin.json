@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless", "category": "food",
+  "ingredients": [
+    { "item": "cnc:sunflower_seeds" },
+    { "tag": "cnc_sa:selected_flours" },
+    { "item": "minecraft:paper" },
+    { "item": "minecraft:milk_bucket" }
+  ],
+  "result": {
+    "count": 1,
+    "id": "cnc:sunflower_seed_muffin"
+  }
+}

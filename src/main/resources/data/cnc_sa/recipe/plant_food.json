@@ -1,11 +1,9 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "type": "minecraft:crafting_shaped", "category": "misc",
   "key": {
     "b": {
       "item": "minecraft:bone_meal"
-    },
-    "c": {
+    }, "c": {
       "tag": "cnc_sa:selected_seeds"
     }
   },

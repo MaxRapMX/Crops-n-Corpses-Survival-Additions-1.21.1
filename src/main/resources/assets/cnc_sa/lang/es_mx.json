@@ -1,8 +1,6 @@
 {
-  // Menu del Creativo
   "itemGroup.cnc.cnc_tab": "Crops 'n' Corpses",
 
-  // Sobres de Semilla
   "item.cnc.peashooter_seed_packet": "Sobre de Lanzaguisantes",
   "item.cnc.snow_pea_seed_packet": "Sobre de Hielaguisantes",
   "item.cnc.sunflower_seed_packet": "Sobre de Girasol",
@@ -12,7 +10,6 @@
   "item.cnc.cherry_bomb_seed_packet": "Sobre de Petacereza ",
   "item.cnc.empty_seed_packet": "Sobre para plantas vacío",
 
-  // Plantas
   "entity.cnc.peashooter": "Lanzaguisantes",
   "entity.cnc.snow_pea": "Hielaguisantes",
   "entity.cnc.sunflower": "Girasol",
@@ -21,7 +18,6 @@
   "entity.cnc.repeater": "Repetidora",
   "entity.cnc.cherry_bomb": "Petacereza",
 
-  // Items / Bloques
   "item.cnc.plant_food": "Alimento para plantas",
   "item.cnc.sun": "Sol",
   "item.cnc.plant_armor": "Armadura para nueces",
@@ -43,9 +39,9 @@
   "item.cnc.golden_cherries": "Cereza de oro",
   "item.cnc.cherry_pie": "Pastel de cereza",
   "block.cnc.chocolate_cherry_cake": "Pastel de chocolate",
-  "item.cnc.vanilla_milkshake": "Licuado de vainilla",
-  "item.cnc.chocolate_milkshake": "Licuado de chocolate",
-  "item.cnc.cherry_milkshake": "Licuado de cereza",
+  "item.cnc.vanilla_milkshake": "Malteada de vainilla",
+  "item.cnc.chocolate_milkshake": "Malteada de chocolate",
+  "item.cnc.cherry_milkshake": "Malteada de cereza",
   "block.cnc.walnut_log": "Tronco de nogal",
   "block.cnc.walnut_wood": "Leño de nogal",
   "block.cnc.stripped_walnut_log": "Tronco de nogal sin corteza",
@@ -67,10 +63,8 @@
   "block.cnc.walnut_leaves": "Hojas de nogal",
   "block.cnc.walnut_sapling": "Retoño de nogal",
 
-  // Armaduras
   "block.cnc.traffic_cone": "Cono de trafico",
 
-  // Entidades
   "entity.cnc.pea": "Guisante",
   "entity.cnc.frozen_pea": "Guisante congelado",
   "entity.cnc.browncoat": "Zombi abrigo pardo",
@@ -78,7 +72,6 @@
   "entity.cnc.walnut_boat": "Bote de nogal",
   "entity.cnc.walnut_chest_boat": "Bote de nogal con cofre",
 
-  // Eventos y Subtitulos
   "item.cnc.seed_packet.cost": "Coste solar:",
   "item.cnc.seed_packet.insufficient_sun": "Sol escaso",
   "item.cnc.seed_packet.cooldown": "Tiempo de recarga:",

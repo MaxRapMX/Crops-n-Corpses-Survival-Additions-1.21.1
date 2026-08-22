@@ -91,7 +91,7 @@ A mod that adds recipes and loot for Crops n Corpses.
 [[dependencies.cnc_sa]]
 modId="cnc"
 type="required"
-versionRange="[0.3.2,)"
+versionRange="[0.1.0,)"
 ordering="AFTER"
 side="BOTH"
 
@@ -99,7 +99,15 @@ side="BOTH"
 modId="toughasnails"
 type="optional"
 reason="this mod adds thirst to CNC Items"
-versionRange="[10.1.0.13,)"
+versionRange="[10.1.0.1,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.cnc_sa]]
+modId="sereneseasons"
+type="optional"
+reason="this mod adds fertile seasons to CNC Crops"
+versionRange="[10.1.0.0,)"
 ordering="AFTER"
 side="BOTH"
 

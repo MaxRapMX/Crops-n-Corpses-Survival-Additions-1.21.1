@@ -1,14 +1,11 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "type": "minecraft:crafting_shaped", "category": "misc",
   "key": {
     "b": {
-      "tag": "cnc_sa:vanilla_dirts"
-    },
-    "c": {
+      "tag": "cnc_sa:selected_dirts"
+    }, "c": {
       "tag": "cnc_sa:selected_seeds"
-    },
-    "g": {
+    }, "g": {
       "tag": "cnc_sa:iron_nugget_sustitute"
     }
   },

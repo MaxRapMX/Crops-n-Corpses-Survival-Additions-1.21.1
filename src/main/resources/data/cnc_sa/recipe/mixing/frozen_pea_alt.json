@@ -1,0 +1,27 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }, { "type": "neoforge:item_exists",
+      "item": "cnc:frozen_pea"
+    }, {
+      "type": "neoforge:mod_loaded",
+      "modid": "fluid"
+    }
+  ], "type": "create:mixing",
+  "ingredients": [
+    { "item": "cnc:raw_pea" },
+    {
+      "type": "neoforge:single",
+      "amount": 250,
+      "fluid": "fluid:powder_snow"
+    }
+  ],
+  "results": [
+    {
+      "id": "cnc:frozen_pea",
+      "count": 4
+    }
+  ]
+}

@@ -4,6 +4,12 @@
     "minecraft:dirt", "minecraft:coarse_dirt", "minecraft:rooted_dirt", {
       "id": "burnt:burnt_dirt",
       "required": false
+    }, {
+      "id": "farmersdelight:organic_compost",
+      "required": false
+    },{
+      "id": "farmersdelight:rich_soil",
+      "required": false
     }
   ]
 }
