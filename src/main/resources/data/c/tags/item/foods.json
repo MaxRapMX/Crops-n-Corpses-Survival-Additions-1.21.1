@@ -1,0 +1,6 @@
+{
+  "replace": false,
+  "values": [ "#cnc:milkshakes", "#cnc:muffins", "cnc:cherry_pie", "cnc:chocolate_cherry_cake",
+    "cnc:cherries", "cnc:golden_cherries", "cnc:walnut", "cnc:raw_pea", "cnc:cooked_pea", "cnc:pea_pod",
+    "cnc:frozen_pea", "cnc:mashed_potatoes"]
+}

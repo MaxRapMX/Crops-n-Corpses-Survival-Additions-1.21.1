@@ -1,12 +1,8 @@
 {
-  "itemGroup.examplemod": "Example Mod Tab",
-  "block.examplemod.example_block": "Example Block",
-  "item.examplemod.example_item": "Example Item",
-  "examplemod.configuration.title": "Example Mod Configs",
-  "examplemod.configuration.section.examplemod.common.toml": "Example Mod Configs",
-  "examplemod.configuration.section.examplemod.common.toml.title": "Example Mod Configs",
-  "examplemod.configuration.items": "Item List",
-  "examplemod.configuration.logDirtBlock": "Log Dirt Block",
-  "examplemod.configuration.magicNumberIntroduction": "Magic Number Text",
-  "examplemod.configuration.magicNumber": "Magic Number"
+  "item.cnc_sa.rice_puding_milkshake": "Rice Puding Milkshake",
+  "item.cnc_sa.mazapan_milkshake": "Mazapan Milkshake",
+  "item.cnc_sa.walnut_milkshake": "Walnut Milkshake",
+  "item.cnc_sa.zues_prayer_milkshake": "Zue´s Prayer Milkshake",
+  "item.cnc_sa.papa_antonio_milkshake": "Papa-Antonio´s Milkshake",
+  "tooltip.mrmx_dream.the_secret_milkshake": "A traditional recipe of Doña Lucha, its very nutritive, but definitive isn´t delicious"
 }

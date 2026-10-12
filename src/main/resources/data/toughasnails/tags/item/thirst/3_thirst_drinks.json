@@ -1,8 +1,4 @@
 {
   "replace": false,
-  "values": [
-    "cnc:vanilla_milkshake",
-    "cnc:chocolate_milkshake",
-    "cnc:cherry_milkshake"
-  ]
+  "values": [ "#cnc:milkshakes" ]
 }

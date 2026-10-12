@@ -6,7 +6,7 @@
     }, "c": {
       "tag": "cnc_sa:selected_seeds"
     }, "g": {
-      "tag": "cnc_sa:iron_nugget_sustitute"
+      "tag": "cnc_sa:iron_ingot_sustitute"
     }
   },
   "pattern": [

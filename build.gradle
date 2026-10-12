@@ -26,20 +26,6 @@ sourceSets.main.resources {
     exclude("src/generated/**/.cache") // datagen cache files
 }
 
-repositories {
-    // Add here additional repositories if required by some of the dependencies below.
-
-    mavenLocal()
-    // ... tus otros repositorios (como NeoForge o Parchment) ...
-
-    // Agrega esto:
-    flatDir {
-        dirs 'libs'
-    }
-
-
-}
-
 base {
     archivesName = mod_id
 }
@@ -127,8 +113,20 @@ configurations {
     runtimeClasspath.extendsFrom localRuntime
 }
 
+repositories {
+    mavenLocal()
+    flatDir {
+        dirs 'libs'
+    }
+    maven { // Repositorio de Modrinth
+        name = "Modrinth"
+        url = "https://api.modrinth.com/maven"
+    }
+}
+
 dependencies {
     implementation "blank:cnc:0.3.2"
+    compileOnly "maven.modrinth:barlious-dream:1.1.1.B"
     // Example optional mod dependency with JEI
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
     // compileOnly "mezz.jei:jei-${mc_version}-common-api:${jei_version}"
