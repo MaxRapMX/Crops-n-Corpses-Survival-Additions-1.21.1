@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#cnc:spawns_zombies",
+  "spawners": {
+    "type": "cnc:imp",
+    "maxCount": 3,
+    "minCount": 1,
+    "weight": 25
+  }
+}

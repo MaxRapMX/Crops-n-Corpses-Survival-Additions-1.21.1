@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.mrmx.cnc_sa.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "NewMilkshakeItem"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

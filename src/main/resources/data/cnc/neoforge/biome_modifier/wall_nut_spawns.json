@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#cnc:spawns_wallnut",
+  "spawners": {
+    "type": "cnc:wallnut",
+    "maxCount": 2,
+    "minCount": 1,
+    "weight": 35
+  }
+}

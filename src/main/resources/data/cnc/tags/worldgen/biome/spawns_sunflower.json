@@ -1,0 +1,8 @@
+{
+  "values": [
+    "minecraft:plains", "#minecraft:is_savanna", "#minecraft:is_forest", "#minecraft:is_jungle", "minecraft:meadow",
+    "minecraft:cherry_grove", "#minecraft:is_taiga", "minecraft:sunflower_plains"
+  ],
+  "remove": [ "minecraft:dark_forest"
+  ]
+}

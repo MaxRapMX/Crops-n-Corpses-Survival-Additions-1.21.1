@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "#cnc_sa:excellent_milkshakes",
+      "required": false }
+  ]
+}

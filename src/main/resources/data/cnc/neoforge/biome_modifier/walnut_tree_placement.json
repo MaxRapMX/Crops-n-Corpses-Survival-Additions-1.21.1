@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#cnc:spawns_wallnut",
+  "features": "cnc:walnut_tree",
+  "step": "vegetal_decoration"
+}

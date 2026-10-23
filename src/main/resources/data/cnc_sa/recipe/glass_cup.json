@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "minecraft:glass"
+    }
+  },
+  "pattern": [
+    "b b",
+    "b b",
+    " b "
+  ],
+  "result": {
+    "count": 1,
+    "id": "cnc_sa:glass_cup"
+  }
+}

@@ -3,9 +3,7 @@
     "cnc:vanilla_milkshake",
     "cnc:chocolate_milkshake",
     "cnc:cherry_milkshake",
-    {
-      "id": "#cnc_sa:milkshakes",
-      "required": false
-    }
+    { "id": "#cnc_sa:milkshakes",
+      "required": false }
   ]
 }

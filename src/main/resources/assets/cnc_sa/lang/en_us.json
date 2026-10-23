@@ -1,8 +1,29 @@
 {
-  "item.cnc_sa.rice_puding_milkshake": "Rice Puding Milkshake",
-  "item.cnc_sa.mazapan_milkshake": "Mazapan Milkshake",
+  "item.cnc_sa.glass_cup": "Glass Cup",
+  "item.cnc_sa.apple_milkshake": "Apple Milkshake",
+  "item.cnc_sa.carrot_milkshake": "Carrot Milkshake",
+  "item.cnc_sa.glow_berries_milkshake": "Glow Berries Milkshake",
+  "item.cnc_sa.chorus_fruit_milkshake": "Chorus Fruit Milkshake",
   "item.cnc_sa.walnut_milkshake": "Walnut Milkshake",
-  "item.cnc_sa.zues_prayer_milkshake": "Zue´s Prayer Milkshake",
-  "item.cnc_sa.papa_antonio_milkshake": "Papa-Antonio´s Milkshake",
-  "tooltip.mrmx_dream.the_secret_milkshake": "A traditional recipe of Doña Lucha, its very nutritive, but definitive isn´t delicious"
+  "item.cnc_sa.mazapan_milkshake": "\"Mazapan\" Milkshake",
+  "item.cnc_sa.angels_kiss_milkshake": "\"Angel´s Kiss\" Milkshake",
+  "item.cnc_sa.rice_puding_milkshake": "\"Rice Puding\" Milkshake",
+
+  "tag.item.cnc.plants_seed_packet": "Plants",
+  "tag.item.cnc.for_plants": "For Plants",
+  "tag.item.cnc.for_zombies": "For Zombies",
+  "tag.item.cnc.plants_loot": "Plants Loot",
+  "tag.item.cnc.muffins": "Muffins",
+  "tag.item.cnc.milkshakes": "Milkshakes",
+  "tag.block.cnc.walnut_logs": "Walnut Logs",
+  "tag.item.cnc.walnut_logs": "Walnut Logs",
+  "tag.item.cnc_sa.zombies_loot": "CNC´s Zombies Loot",
+  "tag.item.cnc_sa.selected_dirts": "Selected Dirts for Recipes",
+  "tag.item.cnc_sa.selected_seeds": "Selected Seeds for Recipes",
+  "tag.item.cnc_sa.iron_ingot_sustitute": "Iron Ingot Sustitutes for Recipes",
+  "tag.item.cnc_sa.selected_flours": "Selected Flours for Recipes",
+  "tag.item.cnc_sa.milkshakes": "Additionals Normal Milkshakes",
+  "tag.item.cnc_sa.excellent_milkshakes": "Nutritive Milkshakes",
+
+  "item.cnc_sa.papa_antonio_milkshake": "Papa-Antonio´s Milkshake"
 }

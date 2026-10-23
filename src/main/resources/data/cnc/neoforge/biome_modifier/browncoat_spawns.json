@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#cnc:spawns_zombies",
+  "spawners": {
+    "type": "cnc:browncoat",
+    "maxCount": 8,
+    "minCount": 2,
+    "weight": 35
+  }
+}

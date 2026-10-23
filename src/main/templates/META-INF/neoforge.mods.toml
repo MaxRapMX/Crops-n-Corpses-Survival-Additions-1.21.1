@@ -33,7 +33,7 @@ displayName="${mod_name}" #mandatory
 #updateJSONURL="https://change.me.example.invalid/updates.json" #optional
 
 # A URL for the "homepage" for this mod, displayed in the mod UI
-#displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
+displayURL="https://modrinth.com/mod/crops-n-corpses-survival-additions" #optional
 
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="cnc_sa_logo.png" #optional
@@ -42,7 +42,7 @@ logoFile="cnc_sa_logo.png" #optional
 #credits="" #optional
 
 # The authors of the mod, displayed in the mod UI (optional)
-#authors=""
+authors="MaxRapMX"
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
@@ -52,6 +52,8 @@ A mod that adds recipes and loot for Crops n Corpses.
 # The [[mixins]] block allows you to declare your mixin config to FML so that it gets loaded.
 #[[mixins]]
 #config="${mod_id}.mixins.json"
+[[mixins]]
+config = "cnc_sa.mixins.json"
 
 # The [[accessTransformers]] block allows you to declare where your AT file is.
 # If this block is omitted, a fallback attempt will be made to load an AT from META-INF/accesstransformer.cfg

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "cnc_sa:item/angels_kiss_milkshake"
+  }
+}

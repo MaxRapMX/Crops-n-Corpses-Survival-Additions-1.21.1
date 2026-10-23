@@ -28,7 +28,7 @@ public class ModifiedCNCFoodValues {
         });
         event.modify(ItemRegistry.SUNFLOWER_SEED_MUFFIN.get(), builder -> {
             FoodProperties NEW_SUNFLOWER_SEED_MUFFIN = new FoodProperties.Builder().nutrition(4).saturationModifier(0.25f)
-                    .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 100, 0), 1.0F)
+                    .effect(() -> new MobEffectInstance(MobEffects.ABSORPTION, 100, 0), 1.0F)
                     .effect(() -> new MobEffectInstance(MobEffects.GLOWING, 1700, 0), 0.65F)
                     .usingConvertsTo(Items.PAPER).build();
             builder.set(DataComponents.FOOD, NEW_SUNFLOWER_SEED_MUFFIN);

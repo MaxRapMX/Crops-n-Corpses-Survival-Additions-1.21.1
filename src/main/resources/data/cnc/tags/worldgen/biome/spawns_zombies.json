@@ -1,0 +1,4 @@
+{
+  "values": [ "#minecraft:is_overworld", "#c:is_cave" ],
+  "remove": [ "#c:no_default_monsters" ]
+}

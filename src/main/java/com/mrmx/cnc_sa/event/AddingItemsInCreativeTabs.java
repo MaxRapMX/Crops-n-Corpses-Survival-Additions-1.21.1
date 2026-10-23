@@ -16,6 +16,8 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import uwu.llkc.cnc.common.init.ItemRegistry;
 
+import static com.mrmx.cnc_sa.CNC_SAMod.isModInVersionRange;
+
 @EventBusSubscriber(modid = "cnc_sa")
 public class AddingItemsInCreativeTabs {
 
@@ -23,7 +25,7 @@ public class AddingItemsInCreativeTabs {
     public static void AddingItemsInCreativeTabs(BuildCreativeModeTabContentsEvent event) {
 
         // Barlious Dream Tab
-        if (ModList.get().isLoaded("mrmx_dream")) {
+        if (isModInVersionRange("mrmx_dream", "[2.0.0,)")) {
             ResourceKey<CreativeModeTab> cncTabKey = ResourceKey.create(
                     Registries.CREATIVE_MODE_TAB,
                     ResourceLocation.fromNamespaceAndPath("mrmx_dream", "barlious_dream_tab")
@@ -40,14 +42,33 @@ public class AddingItemsInCreativeTabs {
                     Registries.CREATIVE_MODE_TAB,
                     ResourceLocation.fromNamespaceAndPath("cnc", "cnc_tab")
             ); if (event.getTabKey() == cncTabKey) {
-                event.insertAfter(
-                        new ItemStack((ItemLike) ItemRegistry.CHERRY_MILKSHAKE), SA_ModItems.WALNUT_MILKSHAKE.get().getDefaultInstance(),
-                        CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
                 event.insertBefore(
-                        new ItemStack((ItemLike) SA_ModItems.WALNUT_MILKSHAKE), SA_ModItems.RICE_PUDING_MILKSHAKE.get().getDefaultInstance(),
+                        new ItemStack((ItemLike) ItemRegistry.VANILLA_MILKSHAKE), SA_ModItems.GLASS_CUP.get().getDefaultInstance(),
                         CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
                 event.insertAfter(
-                        new ItemStack((ItemLike) SA_ModItems.WALNUT_MILKSHAKE), SA_ModItems.VANILLA_WITH_CHERRIES_MILKSHAKE.get().getDefaultInstance(),
+                        new ItemStack((ItemLike) ItemRegistry.CHERRY_MILKSHAKE), SA_ModItems.APPLE_MILKSHAKE.get().getDefaultInstance(),
+                        CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+                event.insertAfter(
+                        new ItemStack((ItemLike) SA_ModItems.APPLE_MILKSHAKE), SA_ModItems.CARROT_MILKSHAKE.get().getDefaultInstance(),
+                        CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+                event.insertAfter(
+                        new ItemStack((ItemLike) SA_ModItems.CARROT_MILKSHAKE), SA_ModItems.GLOW_BERRIES_MILKSHAKE.get().getDefaultInstance(),
+                        CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+                event.insertAfter(
+                        new ItemStack((ItemLike) SA_ModItems.GLOW_BERRIES_MILKSHAKE), SA_ModItems.CHORUS_FRUIT_MILKSHAKE.get().getDefaultInstance(),
+                        CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+                event.insertAfter(
+                        new ItemStack((ItemLike) SA_ModItems.CHORUS_FRUIT_MILKSHAKE), SA_ModItems.WALNUT_MILKSHAKE.get().getDefaultInstance(),
+                        CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+                event.insertAfter(
+                        new ItemStack((ItemLike) SA_ModItems.WALNUT_MILKSHAKE), SA_ModItems.VANILLA_WITH_WALNUT_MILKSHAKE.get().getDefaultInstance(),
+                        CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+                event.insertAfter(
+                        new ItemStack((ItemLike) SA_ModItems.VANILLA_WITH_WALNUT_MILKSHAKE), SA_ModItems.VANILLA_WITH_CHERRIES_MILKSHAKE.get().getDefaultInstance(),
+                        CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+                if (ModList.get().isLoaded("farmersdelight"))
+                    event.insertBefore(
+                        new ItemStack((ItemLike) SA_ModItems.WALNUT_MILKSHAKE), SA_ModItems.RICE_PUDING_MILKSHAKE.get().getDefaultInstance(),
                         CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             }
         }
@@ -108,7 +129,7 @@ public class AddingItemsInCreativeTabs {
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
         }
 
-        // Natural Fuctional Blocks
+        // Fuctional Blocks
         if (event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
             event.insertAfter(
                     new ItemStack(Items.OAK_HANGING_SIGN), ItemRegistry.WALNUT_SIGN.get().getDefaultInstance(),
@@ -176,6 +197,7 @@ public class AddingItemsInCreativeTabs {
             event.insertAfter(
                     new ItemStack(Items.MUSHROOM_STEW), ItemRegistry.MASHED_POTATOES.get().getDefaultInstance(),
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            // Milkshakes
             event.insertAfter(
                     new ItemStack(Items.MILK_BUCKET), ItemRegistry.VANILLA_MILKSHAKE.get().getDefaultInstance(),
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
@@ -184,6 +206,42 @@ public class AddingItemsInCreativeTabs {
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             event.insertAfter(
                     new ItemStack((ItemLike) ItemRegistry.CHOCOLATE_MILKSHAKE), ItemRegistry.CHERRY_MILKSHAKE.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.insertAfter(
+                    new ItemStack((ItemLike) ItemRegistry.CHERRY_MILKSHAKE), SA_ModItems.APPLE_MILKSHAKE.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.insertAfter(
+                    new ItemStack((ItemLike) SA_ModItems.APPLE_MILKSHAKE), SA_ModItems.CARROT_MILKSHAKE.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.insertAfter(
+                    new ItemStack((ItemLike) SA_ModItems.CARROT_MILKSHAKE), SA_ModItems.GLOW_BERRIES_MILKSHAKE.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.insertAfter(
+                    new ItemStack((ItemLike) SA_ModItems.GLOW_BERRIES_MILKSHAKE), SA_ModItems.CHORUS_FRUIT_MILKSHAKE.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.insertAfter(
+                    new ItemStack((ItemLike) SA_ModItems.CHORUS_FRUIT_MILKSHAKE), SA_ModItems.WALNUT_MILKSHAKE.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.insertAfter(
+                    new ItemStack((ItemLike) SA_ModItems.WALNUT_MILKSHAKE), SA_ModItems.VANILLA_WITH_WALNUT_MILKSHAKE.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.insertAfter(
+                    new ItemStack((ItemLike) SA_ModItems.VANILLA_WITH_WALNUT_MILKSHAKE), SA_ModItems.VANILLA_WITH_CHERRIES_MILKSHAKE.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            if (ModList.get().isLoaded("farmersdelight"))
+                event.insertBefore(
+                        new ItemStack((ItemLike) SA_ModItems.WALNUT_MILKSHAKE), SA_ModItems.RICE_PUDING_MILKSHAKE.get().getDefaultInstance(),
+                        CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            if (isModInVersionRange("mrmx_dream", "[2.0.0,)"))
+                event.insertAfter(
+                        new ItemStack((ItemLike) SA_ModItems.VANILLA_WITH_CHERRIES_MILKSHAKE), SA_ModItems.THE_SECRET_MILKSHAKE.get().getDefaultInstance(),
+                        CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        }
+
+        // Ingredients
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.insertAfter(
+                    new ItemStack(Items.GLASS_BOTTLE), SA_ModItems.GLASS_CUP.get().getDefaultInstance(),
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
         }
 

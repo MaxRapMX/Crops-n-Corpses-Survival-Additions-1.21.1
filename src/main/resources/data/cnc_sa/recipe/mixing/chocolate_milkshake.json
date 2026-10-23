@@ -9,7 +9,7 @@
     }
   ], "type": "create:mixing",
   "ingredients": [
-    { "item": "minecraft:glass_bottle" },
+    { "item": "cnc_sa:glass_cup" },
     { "item": "minecraft:sweet_berries" },
     { "item": "minecraft:cocoa_beans" },
     { "item": "minecraft:cocoa_beans" },

@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#cnc:spawns_sunflower",
+  "spawners": {
+    "type": "cnc:sunflower",
+    "maxCount": 5,
+    "minCount": 2,
+    "weight": 75
+  }
+}

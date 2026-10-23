@@ -1,8 +1,5 @@
 {
-  "values": [
-    {
-      "id": "cnc_sa:rice_puding_milkshake",
-      "required": false
-    }
+  "values": [ "cnc_sa:apple_milkshake", "cnc_sa:carrot_milkshake", "cnc_sa:walnut_milkshake",
+    { "id": "cnc_sa:rice_puding_milkshake", "required": false }
   ]
 }

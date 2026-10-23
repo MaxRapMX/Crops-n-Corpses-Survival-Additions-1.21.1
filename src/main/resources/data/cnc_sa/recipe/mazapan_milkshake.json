@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "key": {
+    "b": {
+      "item": "minecraft:sweet_berries"
+    }, "c": {
+      "item": "cnc:walnut"
+    }, "g": {
+      "item": "cnc_sa:glass_cup"
+    }, "m": {
+      "item": "minecraft:milk_bucket"
+    }, "s": {
+      "item": "minecraft:powder_snow_bucket"
+    }, "x": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "pattern": [
+    "xbc",
+    "sms",
+    " g "
+  ],
+  "result": {
+    "count": 1,
+    "id": "cnc_sa:mazapan_milkshake"
+  }
+}
