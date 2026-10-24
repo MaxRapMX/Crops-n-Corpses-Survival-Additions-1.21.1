@@ -1,0 +1,29 @@
+{
+  "item.cnc_sa.glass_cup": "Copo de Vidro"
+  "item.cnc_sa.apple_milkshake": "Milk-shake de maçã",
+  "item.cnc_sa.carrot_milkshake": "Milk-shake de cenoura",
+  "item.cnc_sa.glow_berries_milkshake": "Milk-shake de bagas brilhantes",
+  "item.cnc_sa.chorus_fruit_milkshake": "Milk-shake de fruta do coro",
+  "item.cnc_sa.walnut_milkshake": "Milk-shake de nozes",
+  "item.cnc_sa.mazapan_milkshake": "Milk-shake de \"Mazapan\"",
+  "item.cnc_sa.angels_kiss_milkshake": "Milk-shake de \"Beijo de Anjo\"",
+  "item.cnc_sa.rice_puding_milkshake": "Milk-shake de \"Arroz-doce\"",
+
+  "tag.item.cnc.plants_seed_packet": "Plantas",
+  "tag.item.cnc.for_plants": "Para Plantas",
+  "tag.item.cnc.for_zombies": "Para Zumbis",
+  "tag.item.cnc.plants_loot": "Planta Loot",
+  "tag.item.cnc.muffins": "Muffins",
+  "tag.item.cnc.milkshakes": "Milk-shakes",
+  "tag.block.cnc.walnut_logs": "Toras de nogueira",
+  "tag.item.cnc.walnut_logs": "Toras de nogueira",
+  "tag.item.cnc_sa.zombies_loot": "CNC´s Zumbis Loot",
+  "tag.item.cnc_sa.selected_dirts": "Selected Dirts for Recipes",
+  "tag.item.cnc_sa.selected_seeds": "Selected Seeds for Recipes",
+  "tag.item.cnc_sa.iron_ingot_sustitute": "Iron Ingot Sustitutes for Recipes",
+  "tag.item.cnc_sa.selected_flours": "Selected Flours for Recipes",
+  "tag.item.cnc_sa.milkshakes": "Additionals Normal Milk-shakes",
+  "tag.item.cnc_sa.excellent_milkshakes": "Nutritive Milk-shakes",
+
+  "item.cnc_sa.papa_antonio_milkshake": "O Milk-shake do Papa-Antonio"
+}

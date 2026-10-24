@@ -3,6 +3,6 @@
   "values": [
     "cnc:golden_cherries",
     "cnc:cherry_pie",
-    "cnc:frozen_pea"
+    { "id": "cnc:frozen_pea", "required": false }
   ]
 }

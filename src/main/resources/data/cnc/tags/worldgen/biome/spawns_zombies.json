@@ -1,4 +1,4 @@
 {
   "values": [ "#minecraft:is_overworld", "#c:is_cave" ],
-  "remove": [ "#c:no_default_monsters" ]
+  "remove": [ "#c:no_default_monsters", "#c:is_desert", "#minecraft:water_on_map_outlines"  ]
 }

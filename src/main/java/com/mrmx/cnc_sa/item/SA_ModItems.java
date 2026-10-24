@@ -27,7 +27,7 @@ public class SA_ModItems {
             () -> new Item(new Item.Properties().stacksTo(16)));
     public static final DeferredItem<PapaAntonioMilkshake> THE_SECRET_MILKSHAKE = ANTONIO_CONDITIONS
             ? ITEMS.register("papa_antonio_milkshake",
-            () -> new PapaAntonioMilkshake(new Item.Properties().durability(8).rarity(Rarity.RARE)
+            () -> new PapaAntonioMilkshake(new Item.Properties().durability(16).rarity(Rarity.RARE)
                     .food(SA_Milkshakes.THE_SECRET_MILKSHAKE))): null;
 
     // Vanilla Flavors Milkshakes
@@ -103,7 +103,7 @@ public class SA_ModItems {
             WALNUT_MILKSHAKE = WalnutMilkshake.build();
 
             var MazapanMilkshake = (new FoodProperties.Builder()).nutrition(5).saturationModifier(0.9f).alwaysEdible().fast()
-                    .effect(() -> new MobEffectInstance(MobEffects.ABSORPTION, 500, 1), 1.0F);
+                    .effect(() -> new MobEffectInstance(MobEffects.ABSORPTION, 900, 2), 1.0F);
             BuiltInRegistries.MOB_EFFECT.getHolder(ResourceLocation.parse("farmersdelight:comfort"))
                     .ifPresent(comfort -> MazapanMilkshake.effect(() -> new MobEffectInstance(comfort, 1700, 0), 1.0F));
             BuiltInRegistries.MOB_EFFECT.getHolder(ResourceLocation.parse("farmersdelight:nourishment"))
@@ -123,17 +123,25 @@ public class SA_ModItems {
             RICE_PUDING_MILKSHAKE = RicePudingMilkshake.build();
 
             var MamaLuchaMilkshake = (new FoodProperties.Builder()).nutrition(7).saturationModifier(0.8f).alwaysEdible().fast()
-                    .effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 60, 0), 0.85F)
-                    .effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 200, 0), 0.30F)
-                    .effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 900, 0), 0.10F)
-                    .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 2900, 1), 0.40F)
-                    .effect(() -> new MobEffectInstance(MobEffects.DIG_SPEED, 3600, 1), 0.40F)
-                    .effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 300, 1), 0.35F)
-                    .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_BOOST, 2900, 0), 0.35F)
-                    .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 3000, 0), 0.35F)
-                    .effect(() -> new MobEffectInstance(MobEffects.HEALTH_BOOST, 18000, 2), 0.10F);
+                    .effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 100, 0), 0.85F)
+                    .effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 300, 0), 0.45F)
+                    .effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 900, 0), 0.20F)
+                    .effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 2100, 0), 0.067F)
+                    .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 2100, 1), 0.45F)
+                    .effect(() -> new MobEffectInstance(MobEffects.DIG_SPEED, 3700, 1), 0.45F)
+                    .effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 700, 1), 0.41F)
+                    .effect(() -> new MobEffectInstance(MobEffects.HEAL, 1, 1), 0.25F)
+                    .effect(() -> new MobEffectInstance(MobEffects.NIGHT_VISION, 2100, 0), 0.15F)
+                    .effect(() -> new MobEffectInstance(MobEffects.ABSORPTION, 2100, 2), 0.10F)
+                    .effect(() -> new MobEffectInstance(MobEffects.GLOWING, 500, 0), 0.41F)
+                    .effect(() -> new MobEffectInstance(MobEffects.SLOW_FALLING, 2400, 1), 0.30F)
+                    .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 3700, 0), 0.10F)
+                    .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_BOOST, 2100, 0), 0.10F)
+                    .effect(() -> new MobEffectInstance(MobEffects.HEALTH_BOOST, 18000, 2), 0.5F);
+            BuiltInRegistries.MOB_EFFECT.getHolder(ResourceLocation.parse("farmersdelight:comfort"))
+                    .ifPresent(comfort -> MamaLuchaMilkshake.effect(() -> new MobEffectInstance(comfort, 3700, 0), 0.10F));
             BuiltInRegistries.MOB_EFFECT.getHolder(ResourceLocation.parse("farmersdelight:nourishment"))
-                    .ifPresent(nourishment -> MamaLuchaMilkshake.effect(() -> new MobEffectInstance(nourishment, 1500, 0), 0.85F));
+                    .ifPresent(nourishment -> MamaLuchaMilkshake.effect(() -> new MobEffectInstance(nourishment, 2100, 0), 0.85F));
             THE_SECRET_MILKSHAKE = MamaLuchaMilkshake.build();
         }
     }

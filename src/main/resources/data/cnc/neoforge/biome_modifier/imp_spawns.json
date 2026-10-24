@@ -3,7 +3,7 @@
   "biomes": "#cnc:spawns_zombies",
   "spawners": {
     "type": "cnc:imp",
-    "maxCount": 3,
+    "maxCount": 4,
     "minCount": 1,
     "weight": 25
   }

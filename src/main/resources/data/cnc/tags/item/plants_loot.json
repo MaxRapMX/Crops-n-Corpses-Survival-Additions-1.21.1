@@ -1,9 +1,9 @@
 {
   "values": [
     "cnc:raw_pea",
-    "cnc:frozen_pea",
     "cnc:sunflower_seeds",
     "minecraft:baked_potato",
-    "cnc:cherries"
+    "cnc:cherries",
+    { "id": "cnc:frozen_pea", "required": false }
   ]
 }

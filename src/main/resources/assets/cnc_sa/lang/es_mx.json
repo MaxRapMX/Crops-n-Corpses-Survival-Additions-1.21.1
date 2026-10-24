@@ -1,0 +1,29 @@
+{
+  "item.cnc_sa.glass_cup": "Copa de vidrio",
+  "item.cnc_sa.apple_milkshake": "Malteada de manzana",
+  "item.cnc_sa.carrot_milkshake": "Malteada de zanahoria",
+  "item.cnc_sa.glow_berries_milkshake": "Malteada de bayas brillantes",
+  "item.cnc_sa.chorus_fruit_milkshake": "Malteada de fruta de chorus",
+  "item.cnc_sa.walnut_milkshake": "Malteada de nuez",
+  "item.cnc_sa.mazapan_milkshake": "Malteada de mazapan",
+  "item.cnc_sa.angels_kiss_milkshake": "Malteada de beso de angel",
+  "item.cnc_sa.rice_puding_milkshake": "Malteada de arroz con leche",
+
+  "tag.item.cnc.plants_seed_packet": "Plantas",
+  "tag.item.cnc.for_plants": "Para Plantas",
+  "tag.item.cnc.for_zombies": "Para Zombies",
+  "tag.item.cnc.plants_loot": "Botin de Plantas",
+  "tag.item.cnc.muffins": "Panquesitos",
+  "tag.item.cnc.milkshakes": "Malteadas",
+  "tag.block.cnc.walnut_logs": "Troncos de nogal",
+  "tag.item.cnc.walnut_logs": "Troncos de nogal",
+  "tag.item.cnc_sa.zombies_loot": "Botin de Zombies de CNC",
+  "tag.item.cnc_sa.selected_dirts": "Tierra Seleccionada para Recetas",
+  "tag.item.cnc_sa.selected_seeds": "Semillas Seleccionada para Recetas",
+  "tag.item.cnc_sa.iron_ingot_sustitute": "Sustituto al Lingote de Hierro para Recetas",
+  "tag.item.cnc_sa.selected_flours": "Harinas Seleccionada para Recetas",
+  "tag.item.cnc_sa.milkshakes": "Malteadas Normales Adicionales",
+  "tag.item.cnc_sa.excellent_milkshakes": "Malteadas Nutritivas",
+
+  "item.cnc_sa.papa_antonio_milkshake": "El licuado de Papá Antonio"
+}
