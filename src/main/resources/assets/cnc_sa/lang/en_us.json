@@ -7,7 +7,7 @@
   "item.cnc_sa.walnut_milkshake": "Walnut Milkshake",
   "item.cnc_sa.mazapan_milkshake": "\"Mazapan\" Milkshake",
   "item.cnc_sa.angels_kiss_milkshake": "\"Angel´s Kiss\" Milkshake",
-  "item.cnc_sa.rice_puding_milkshake": "\"Rice Puding\" Milkshake",
+  "item.cnc_sa.rice_puding_milkshake": "Rice Puding Milkshake",
 
   "tag.item.cnc.plants_seed_packet": "Plants",
   "tag.item.cnc.for_plants": "For Plants",
@@ -21,6 +21,7 @@
   "tag.item.cnc_sa.selected_dirts": "Selected Dirts for Recipes",
   "tag.item.cnc_sa.selected_seeds": "Selected Seeds for Recipes",
   "tag.item.cnc_sa.iron_ingot_sustitute": "Iron Ingot Sustitutes for Recipes",
+  "tag.item.cnc_sa.iron_nugget_sustitute": "Iron Nugget Sustitutes for Recipes",
   "tag.item.cnc_sa.selected_flours": "Selected Flours for Recipes",
   "tag.item.cnc_sa.milkshakes": "Additionals Normal Milkshakes",
   "tag.item.cnc_sa.excellent_milkshakes": "Nutritive Milkshakes",

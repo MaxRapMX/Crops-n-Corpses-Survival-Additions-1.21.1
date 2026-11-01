@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "cnc:vanilla_milkshake"
+        "recipe": "cnc_sa:glass_cup"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

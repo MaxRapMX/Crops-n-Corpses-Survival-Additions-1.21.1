@@ -30,8 +30,8 @@ public class AddingItemsInCreativeTabs {
                     Registries.CREATIVE_MODE_TAB,
                     ResourceLocation.fromNamespaceAndPath("mrmx_dream", "barlious_dream_tab")
             ); if (event.getTabKey() == cncTabKey) {
-                event.insertBefore(
-                        new ItemStack((ItemLike) ModItems.BARLIOUS_UPGRADE), SA_ModItems.THE_SECRET_MILKSHAKE.get().getDefaultInstance(),
+                event.insertAfter(
+                        new ItemStack((ItemLike) ModItems.PLANT_WHISTLE), SA_ModItems.THE_SECRET_MILKSHAKE.get().getDefaultInstance(),
                         CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             }
         }

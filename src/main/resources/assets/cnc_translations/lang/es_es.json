@@ -1,14 +1,14 @@
 {
   "itemGroup.cnc.cnc_tab": "Crops 'n' Corpses",
 
-  "item.cnc.peashooter_seed_packet": "Paquete de Semilla de Lanzaguisantes",
-  "item.cnc.snow_pea_seed_packet": "Paquete de Semilla de Hielaguisantes",
-  "item.cnc.sunflower_seed_packet": "Paquete de Semilla de Girasol",
-  "item.cnc.wallnut_seed_packet": "Paquete de Semilla de Nuez",
-  "item.cnc.potato_mine_seed_packet": "Paquete de Semilla de Papapum",
-  "item.cnc.repeater_seed_packet": "Paquete de Semilla de Repetidora",
-  "item.cnc.cherry_bomb_seed_packet": "Paquete de Semilla de Petacereza ",
-  "item.cnc.empty_seed_packet": "Paquete de Semilla vacío",
+  "item.cnc.peashooter_seed_packet": "Paquete de semilla de Lanzaguisantes",
+  "item.cnc.snow_pea_seed_packet": "Paquete de semilla de Hielaguisantes",
+  "item.cnc.sunflower_seed_packet": "Paquete de semilla de Girasol",
+  "item.cnc.wallnut_seed_packet": "Paquete de semilla de Nuez",
+  "item.cnc.potato_mine_seed_packet": "Paquete de semilla de Papapum",
+  "item.cnc.repeater_seed_packet": "Paquete de semilla de Repetidora",
+  "item.cnc.cherry_bomb_seed_packet": "Paquete de semilla de Petacereza ",
+  "item.cnc.empty_seed_packet": "Paquete de semilla vacío",
 
   "entity.cnc.peashooter": "Lanzaguisantes",
   "entity.cnc.snow_pea": "Hielaguisantes",
